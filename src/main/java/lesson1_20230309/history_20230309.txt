@@ -1,0 +1,70 @@
+  345  git config --global user.mname
+  346  git version
+  347  git config --global user.email
+  348  pwd
+  349  cd e:/
+  350  pwd
+  351  cd E:/Courses/TelRan/git_classworks/
+  352  git config --global
+  353  git config --global user.name
+  354  git config --global user.email
+  355  cd
+  356  ls -al
+  357  cd.ssh/
+  358  cd .ssh/
+  359  ls
+  360  cat id_rsa.pub
+  361  cd E:/Courses/TelRan/git_classworks/
+  362  pwd
+  363  ls
+  364  git clone git@github.com:odemyanenko/git_classworks.git
+  365  cd git_classworks/
+  366  ls
+  367  git remote -v
+  368  nano song.txt
+  369  ls
+  370  cat song.txt 
+  371  git status
+  372  git add song.txt 
+  373  git status
+  374  git commit -m "add song.txt"
+  375  git status
+  376  git status
+  377  git push
+  378  git log
+  379  pwd
+  380  cd .
+  381  cd ./
+  382  pwd
+  383  cd ../
+  384  cd ../
+  385  ls
+  386  cd algorithms_homeworks/
+  387  pwd
+  388  echo "same text" > NewFile.txt
+  389  ls
+  390  git init
+  391  git status
+  392  git add .
+  393  git status
+  394  git commit -m "Add new files"
+  395  git status
+  396  git log
+  397  git remote -v
+  398  git remote add origin git@github.com:odemyanenko/algorithms_homeworks.git
+  399  git remote -v
+  400  git log
+  401  git branch -M main
+  402  git log
+  403  git remote -v
+  404  git push -u origin main
+  405  git log
+  406  git log
+  407  ды
+  408  ls
+  409  rm *.txt
+  410  ls
+  411  git status
+  412  git restore .
+  413  ls
+  414  history > history.txt
