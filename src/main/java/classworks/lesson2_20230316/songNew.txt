@@ -1,0 +1,2 @@
+Quitting Vim ( :q )
+If you haven't made any changes to a file or have already saved your changes, you can use the :q command to quit Vim. This command exits Vim without saving changes to the current file. To use this command, enter :q in command mode, then press Enter.
