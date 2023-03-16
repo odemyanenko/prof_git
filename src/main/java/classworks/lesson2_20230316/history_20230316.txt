@@ -1,0 +1,500 @@
+  129  pwd
+  130  cd ..
+  131  pwd
+  132  cd ..
+  133  pwd
+  134  cd ..
+  135  pwd
+  136  cd icl-core/path
+  137  icl-core\path
+  138  cd /icl-core\path
+  139  cd icl-core\path
+  140  cd ~
+  141  pwd
+  142  ls
+  143  cd icl-core/
+  144  cd path/
+  145  pwd
+  146  ls -la
+  147  ls -lat
+  148  ls -lart
+  149  clear
+  150  ls -R
+  151  ls -lR
+  152  pwd
+  153  ls
+  154  rm afile
+  155  ls
+  156  rm to
+  157  rmdir to
+  158  rm to/a/new/folder
+  159  rmdir to/a/new/folder
+  160  ls -R
+  161  rm -r to/a
+  162  ls -R
+  163  ./first_script.sh
+  164  cd ~
+  165  cd bashin3weeks/
+  166  ./first_script.sh
+  167  cd ~
+  168  ../first_script.sh
+  169  echo $PWD
+  170  ls
+  171  cd icl-core/path
+  172  ../first_script.sh
+  173  echo $PWD
+  174  cat > afile << WHATEVER
+  175  some text a file
+  176  some more text
+  177  another line
+  178  WHATEVER
+  179  ls
+  180  cat afile
+  181  echo $MYSTRING
+  182  exit
+  183  echo $MYSTRING
+  184  exit
+  185  gotelran 
+  186  ls
+  187  cd [200~icl-core/
+  188  cd [200~icl-core/
+  189  ~cd /icl-core
+  190  cd /icl-core
+  191  cd icl-core/
+  192  ls
+  193  ls path/
+  194  cd path/
+  195  pwd
+  196  cat afile
+  197  iv afile
+  198  clear
+  199  cat afile
+  200  tac afile
+  201  cp afile afile.copied
+  202  cat afile
+  203  cat afile.copied
+  204  echo some text
+  205  echo -n newline
+  206  echo -n mo newline
+  207  man ls
+  208  gotelran 
+  209  less
+  210  less afile
+  211  gotelran 
+  212  sudo ls
+  213  find .
+  214  find ..
+  215  MYSTRING=astring
+  216  echo #MYSTRING
+  217  echo $MYSTRING
+  218  MYSENTENCE = A sentence
+  219  MYSENTENCE=A sentence
+  220  MYSENTENCE="A sentence"
+  221  echo $MYSENTECE
+  222  echo $MYSENTENCE
+  223  MYSENTENCE="A sentence with $MYSTRING in it"
+  224  echo $MYSENTENCE
+  225  echo $MYSENTENCE
+  226  MYSENTENCE="A sentence with $MYSTRING in it"
+  227  echo $MYSENTENCE
+  228  MYSENTENCE='A sentence with $MYSTRING in it'
+  229  echo $MYSENTENCE
+  230  echo $PPID
+  231  echo $$
+  232  PPID=nonsense
+  233  readonly READONLYVAR=astring
+  234  echo $READONLYVAR
+  235  readonly READONLYVAR=anotherstring
+  236  echo $MYSTRING
+  237  bash
+  238  echo $MYSTRING
+  239  export MYSTRING=astring2
+  240  echo $MYSTRING
+  241  bash
+  242  clear
+  243  env
+  244  clear
+  245  ANEWVAR=anewval
+  246  env
+  247  clear
+  248  declare -i
+  249  declare -r
+  250  declare -a
+  251  echo $BASH_VERSINFO
+  252  echo $BASH_VERSINFO[5]
+  253  echo $BASH_VERSINFO[1][5]
+  254  echo $BASH_VERSINFO[1][2][5]
+  255  echo ${BASH_VERSINFO[5]}
+  256  echo ${MYSTRING}
+  257  clear
+  258  history
+  259  man 1 open
+  260  pwd
+  261  ls *
+  262  ls
+  263  ls  afile afile.copied to
+  264  cat > afile2 << EOF
+  265  Some text
+  266  EOF
+  267  grep '.*' afile2
+  268  clear
+  269  mkdir itb_loops
+  270  cd itb_loops
+  271  pwd
+  272  [A done
+  273  for (( i=0l i < 20; i++ )); do echo $i; echo $i > file${i}.txt; done
+  274  for (( i=0; i < 20; i++ )); do echo $i; echo $i > file${i}.txt; done
+  275  ls
+  276  for f in file0.txt file1.txt file2.txt; do echo "File $f contains: $(cat $f)"; done
+  277  for f in $(ls *txt); do echo "File $f contains: $(cat $f)"; done
+  278  clear
+  279  n=0
+  280  while [ $n -lt 10]; do ((n++)); echo iteration $n; done
+  281  while [[ $n -lt 10]]; do ((n++)); echo iteration $n; done
+  282  while [[ $n -lt 10]] do ((n++)); echo iteration $n; done
+  283  while [ $n -lt 10 ] do ((n++)); echo iteration $n; done
+  284  while [ $n -lt 10 ]; do ((n++)); echo iteration $n; done
+  285  clear
+  286  hostname
+  287  echo "My hostname: hostname"
+  288  echo "My hostname: $(hostname)"
+  289  echo 'My hostname: $(hostname)'
+  290  echo 'My hostname: `hostname)`'
+  291  echo 'My hostname: `hostname`'
+  292  echo "My hostname: `hostname`"
+  293  mkdir itb_cmdsub
+  294  cd itb_cmdsub
+  295  pwd
+  296  touch a b
+  297  ls
+  298  ls a b
+  299  ls $(echo a b)
+  300  ls `echo a `echo b``
+  301  ls aecho b
+  302  find ~ -iname '*jpg'
+  303  history
+  304  cd ~
+  305  ls
+  306  cd bashin3weeks/
+  307  pwd
+  308  ls
+  309  history > Oreilly_BashScripting1.txt
+  310  export_file Oreilly_BashScripting1.txt 
+  311  export -f [200~Oreilly_BashScripting1.txt
+  312  export -f Oreilly_BashScripting1.txt 
+  313  export_file "Oreilly_BashScripting1.txt"
+  314  find
+  315  cd ~
+  316  [ 1 = 0 ]
+  317  echo $?
+  318  gotelran 
+  319  gotelran 
+  320  clear
+  321  gotelran 
+  322  gotelran 
+  323  gotelran 
+  324  #!/bin/bash
+  325  USER=Olga
+  326  CHISLO=$(date)
+  327  DIR=$(pwd)
+  328  PROCESS=$(ps -ef | wc -l)
+  329  PRAVA=$(ls -la /etc/passwd | awk '{ print $1 }')
+  330  PROCESS=$(($PROCESS-1))
+  331  echo $CHISLO
+  332  echo "Hello, $USER!"
+  333  echo $DIR
+  334  echo $PROCESS
+  335  echo $PRAVA
+  336  javac -version
+  337  gotelran 
+  338  gotelran 
+  339  gotelran 
+  340  gotelran 
+  341  gotelran 
+  342  gotelran 
+  343  gotelran 
+  344  [200~
+  345  git config --global user.mname
+  346  git version
+  347  git config --global user.email
+  348  pwd
+  349  cd e:/
+  350  pwd
+  351  cd E:/Courses/TelRan/git_classworks/
+  352  git config --global
+  353  git config --global user.name
+  354  git config --global user.email
+  355  cd
+  356  ls -al
+  357  cd.ssh/
+  358  cd .ssh/
+  359  ls
+  360  cat id_rsa.pub
+  361  cd E:/Courses/TelRan/git_classworks/
+  362  pwd
+  363  ls
+  364  git clone git@github.com:odemyanenko/git_classworks.git
+  365  cd git_classworks/
+  366  ls
+  367  git remote -v
+  368  nano song.txt
+  369  ls
+  370  cat song.txt 
+  371  git status
+  372  git add song.txt 
+  373  git status
+  374  git commit -m "add song.txt"
+  375  git status
+  376  git status
+  377  git push
+  378  git log
+  379  pwd
+  380  cd .
+  381  cd ./
+  382  pwd
+  383  cd ../
+  384  cd ../
+  385  ls
+  386  cd algorithms_homeworks/
+  387  pwd
+  388  echo "same text" > NewFile.txt
+  389  ls
+  390  git init
+  391  git status
+  392  git add .
+  393  git status
+  394  git commit -m "Add new files"
+  395  git status
+  396  git log
+  397  git remote -v
+  398  git remote add origin git@github.com:odemyanenko/algorithms_homeworks.git
+  399  git remote -v
+  400  git log
+  401  git branch -M main
+  402  git log
+  403  git remote -v
+  404  git push -u origin main
+  405  git log
+  406  git log
+  407  ды
+  408  ls
+  409  rm *.txt
+  410  ls
+  411  git status
+  412  git restore .
+  413  ls
+  414  history > history.txt
+  415  cat history.txt 
+  416  export_file history.txt 
+  417  ls
+  418  ipconfig
+  419  cd E:/
+  420  ls
+  421  cd Courses/TelRan/prof_git/
+  422  ls
+  423  git remote -v
+  424  git status
+  425  ls
+  426  ls src/
+  427  cd src/
+  428  ls
+  429  cd main/
+  430  ls
+  431  cd resources/
+  432  ls
+  433  ls
+  434  cd ../
+  435  cd java/classworks/lesson2_20230316/
+  436  ls
+  437  pwd
+  438  ls
+  439  git status
+  440  echo "Same text ">> song.txt
+  441  cat song.txt 
+  442  git commit -m "test"
+  443  git push
+  444  echo "New text ">> song.txt
+  445  git checkout song.txt
+  446  cat song.txt 
+  447  echo "New text 1">> song.txt
+  448  git status
+  449  cat song.txt 
+  450  git checkout song.txt
+  451  git status
+  452  cat song.txt 
+  453  nano song.txt song.txt 
+  454  cat song.txt 
+  455  git status
+  456  git add song.txt 
+  457  git status
+  458  git restore --stage song.txt 
+  459  git status
+  460  nano song.txt 
+  461  git status
+  462  git add song.txt 
+  463  git status
+  464  git commit -m "added 2 rows"
+  465  git status
+  466  > file.log
+  467  ls
+  468  git status
+  469  git clean -xdn
+  470  git clean -xdf
+  471  ls
+  472  nano song.txt 
+  473  git status
+  474  git add song.txt 
+  475  git commit -m "add bad 4 row"
+  476  git status
+  477  git commit --amend -m "Add Bed 4 row"
+  478  git log
+  479  echo "Same text" > newfile.txt
+  480  git status
+  481  get add newfile.txt 
+  482  git status
+  483  git add newfile.txt 
+  484  git status
+  485  git commit --amend -m "Add newfile in BED commit"
+  486  git log
+  487  git reset HEAD~1
+  488  git log
+  489  git status
+  490  cat song.txt 
+  491  get restore song.txt 
+  492  git restore song.txt 
+  493  cat song.txt 
+  494  git status
+  495  nano song.txt 
+  496  git add song.txt song.txt 
+  497  git add song.txt
+  498  git status
+  499  git commit -m "Bed file " song.txt 
+  500  git status
+  501  git push
+  502  git log
+  503  git revert HEAD~
+  504  git revert HEAD
+  505  git revert HEAD
+  506  git status
+  507  cat song.txt 
+  508  git status
+  509  git log
+  510  git status
+  511  cta newfile.txt 
+  512  cat newfile.txt 
+  513  git restore --stage newfile.txt 
+  514  git status
+  515  git status
+  516  git clean --stage newfile.txt 
+  517  git clean -xdn
+  518  git clean -xdf
+  519  git status
+  520  git revert HEAD
+  521  git log
+  522  git status
+  523  git push
+  524  git log
+  525  git reset HEAD~2
+  526  git log
+  527  git push
+  528  git push --force
+  529  ls -al
+  530  rm -rf *.txt
+  531  ls la
+  532  ls -la
+  533  git status
+  534  git restore song.txt 
+  535  ls
+  536  cat song.txt 
+  537  > file.log
+  538  > file.error
+  539  ls
+  540  ls -la
+  541  nano /E:/Courses/TelRan/prof_git/.gitignore
+  542  cd ../
+  543  cd ../
+  544  cd ../
+  545  cd ../
+  546  ls
+  547  cd ../
+  548  ls
+  549  ls -la
+  550  nano .gitignore
+  551  cat .gitignore 
+  552  git status
+  553  git add .gitignore 
+  554  git status
+  555  git commit -m "changed .gitignore"
+  556  git push
+  557  git status
+  558  history > history20230316.txt
+  559  git status
+  560  pwd
+  561  cd src/main/java/classworks/lesson2_20230316/
+  562  pwd
+  563  git branch test
+  564  git status
+  565  git branch -v
+  566  git checkout test
+  567  git branch -v
+  568  git checkout -b test1
+  569  git branch -v
+  570  git checkout main
+  571  git branch -v
+  572  git checkout mmaster
+  573  git checkout master
+  574  git branch -v
+  575  git branch -d test1
+  576  git checkout test
+  577  ls -al
+  578  nano songNew.txt
+  579  git status
+  580  git add .
+  581  git status
+  582  git commit -m "Add songNew"
+  583  git log
+  584  git log --oneline
+  585  nano songNew.txt 
+  586  git status
+  587  git add .
+  588  git commit -m "add 3 line"
+  589  git log
+  590  git log --oneline
+  591  git log --oneline --decorate --graph --all
+  592  git checkout main
+  593  git branch -v
+  594  git checkout master
+  595  git branch -v
+  596  git merge test
+  597  git log --oneline --decorate --graph --all
+  598  git push
+  599  git branch -v
+  600  nano songNew.txt 
+  601  git add .
+  602  git commit -m "change 5 step"
+  603  git checkout test
+  604  git branch -v
+  605  nano songNew.txt 
+  606  git add .
+  607  git commit -m "change 5 test step"
+  608  git log --oneline --decorate --graph --all
+  609  git push
+  610  git push --set-upstream origin test
+  611  git branch -v
+  612  git checkout master
+  613  git branch -v
+  614  git merge test
+  615  nano songNew.txt 
+  616  git status
+  617  git add songNew.txt 
+  618  git status
+  619  git commit
+  620  git log --oneline --decorate --graph --all
+  621  git checkout test
+  622  ls
+  623  cat songNew.txt 
+  624  git checkout master
+  625  git branch -d test
+  626  git log --oneline --decorate --graph --all
+  627  git push
+  628  history > history_20230316.txt
