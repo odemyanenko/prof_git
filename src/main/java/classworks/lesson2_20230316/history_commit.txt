@@ -1,0 +1,124 @@
+  435  cd java/classworks/lesson2_20230316/
+  436  ls
+  437  pwd
+  438  ls
+  439  git status
+  440  echo "Same text ">> song.txt
+  441  cat song.txt 
+  442  git commit -m "test"
+  443  git push
+  444  echo "New text ">> song.txt
+  445  git checkout song.txt
+  446  cat song.txt 
+  447  echo "New text 1">> song.txt
+  448  git status
+  449  cat song.txt 
+  450  git checkout song.txt
+  451  git status
+  452  cat song.txt 
+  453  nano song.txt song.txt 
+  454  cat song.txt 
+  455  git status
+  456  git add song.txt 
+  457  git status
+  458  git restore --stage song.txt 
+  459  git status
+  460  nano song.txt 
+  461  git status
+  462  git add song.txt 
+  463  git status
+  464  git commit -m "added 2 rows"
+  465  git status
+  466  > file.log
+  467  ls
+  468  git status
+  469  git clean -xdn
+  470  git clean -xdf
+  471  ls
+  472  nano song.txt 
+  473  git status
+  474  git add song.txt 
+  475  git commit -m "add bad 4 row"
+  476  git status
+  477  git commit --amend -m "Add Bed 4 row"
+  478  git log
+  479  echo "Same text" > newfile.txt
+  480  git status
+  481  get add newfile.txt 
+  482  git status
+  483  git add newfile.txt 
+  484  git status
+  485  git commit --amend -m "Add newfile in BED commit"
+  486  git log
+  487  git reset HEAD~1
+  488  git log
+  489  git status
+  490  cat song.txt 
+  491  get restore song.txt 
+  492  git restore song.txt 
+  493  cat song.txt 
+  494  git status
+  495  nano song.txt 
+  496  git add song.txt song.txt 
+  497  git add song.txt
+  498  git status
+  499  git commit -m "Bed file " song.txt 
+  500  git status
+  501  git push
+  502  git log
+  503  git revert HEAD~
+  504  git revert HEAD
+  505  git revert HEAD
+  506  git status
+  507  cat song.txt 
+  508  git status
+  509  git log
+  510  git status
+  511  cta newfile.txt 
+  512  cat newfile.txt 
+  513  git restore --stage newfile.txt 
+  514  git status
+  515  git status
+  516  git clean --stage newfile.txt 
+  517  git clean -xdn
+  518  git clean -xdf
+  519  git status
+  520  git revert HEAD
+  521  git log
+  522  git status
+  523  git push
+  524  git log
+  525  git reset HEAD~2
+  526  git log
+  527  git push
+  528  git push --force
+  529  ls -al
+  530  rm -rf *.txt
+  531  ls la
+  532  ls -la
+  533  git status
+  534  git restore song.txt 
+  535  ls
+  536  cat song.txt 
+  537  > file.log
+  538  > file.error
+  539  ls
+  540  ls -la
+  541  nano /E:/Courses/TelRan/prof_git/.gitignore
+  542  cd ../
+  543  cd ../
+  544  cd ../
+  545  cd ../
+  546  ls
+  547  cd ../
+  548  ls
+  549  ls -la
+  550  nano .gitignore
+  551  cat .gitignore 
+  552  git status
+  553  git add .gitignore 
+  554  git status
+  555  git commit -m "changed .gitignore"
+  556  git push
+  557  git status
+  558  history > history20230316.txt

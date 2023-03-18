@@ -1,0 +1,70 @@
+  559  git status
+  560  pwd
+  561  cd src/main/java/classworks/lesson2_20230316/
+  562  pwd
+  563  git branch test
+  564  git status
+  565  git branch -v
+  566  git checkout test
+  567  git branch -v
+  568  git checkout -b test1
+  569  git branch -v
+  570  git checkout main
+  571  git branch -v
+  572  git checkout mmaster
+  573  git checkout master
+  574  git branch -v
+  575  git branch -d test1
+  576  git checkout test
+  577  ls -al
+  578  nano songNew.txt
+  579  git status
+  580  git add .
+  581  git status
+  582  git commit -m "Add songNew"
+  583  git log
+  584  git log --oneline
+  585  nano songNew.txt 
+  586  git status
+  587  git add .
+  588  git commit -m "add 3 line"
+  589  git log
+  590  git log --oneline
+  591  git log --oneline --decorate --graph --all
+  592  git checkout main
+  593  git branch -v
+  594  git checkout master
+  595  git branch -v
+  596  git merge test
+  597  git log --oneline --decorate --graph --all
+  598  git push
+  599  git branch -v
+  600  nano songNew.txt 
+  601  git add .
+  602  git commit -m "change 5 step"
+  603  git checkout test
+  604  git branch -v
+  605  nano songNew.txt 
+  606  git add .
+  607  git commit -m "change 5 test step"
+  608  git log --oneline --decorate --graph --all
+  609  git push
+  610  git push --set-upstream origin test
+  611  git branch -v
+  612  git checkout master
+  613  git branch -v
+  614  git merge test
+  615  nano songNew.txt 
+  616  git status
+  617  git add songNew.txt 
+  618  git status
+  619  git commit
+  620  git log --oneline --decorate --graph --all
+  621  git checkout test
+  622  ls
+  623  cat songNew.txt 
+  624  git checkout master
+  625  git branch -d test
+  626  git log --oneline --decorate --graph --all
+  627  git push
+  628  history > history_20230316.txt
