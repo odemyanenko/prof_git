@@ -1,0 +1,7 @@
+Quitting Vim ( :q )
+If you haven't made any changes to a file or have already saved your changes, you can use the :q command to quit Vim. This command exits Vim without saving changes to the current file. To use this command, enter :q in command mode, then press Enter.
+
+
+Vi or vim is a text editor for Linux and Unix-like operating systems. It can be used to edit all kinds of plain text files. It is especially useful for editing programs, scrpits or system configuration files located in /etc/ or /usr/local/etc/ directories.
+
+1234567890
